@@ -48,6 +48,16 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.container.dark-mode{
+    max-width: 800px;
+    margin: 0 auto;
+    background: #181818;
+    padding: 20px;
+    border-raduis: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #DFDFDF;
+}
+
 a {
     color: #007bff;
     text-decoration: none;
