@@ -12,6 +12,14 @@ body {
     padding: 20px;
 }
 
+/* Dark mode :3 */
+body.dark-mode{
+    font-familiy: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #161616;
+    color: #DFDFDF;
+}
+
 h1, h2 {
     color: #444;
 }
