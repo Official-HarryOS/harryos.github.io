@@ -60,3 +60,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+button{
+    border-raduis: 8px;
+    cursor: pointer;
+}
