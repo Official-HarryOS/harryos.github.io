@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         darkModeToggle()
     }
 
-    darkToggleButton.onlick = function(){
+    darkToggleButton.onclick = function(){
         darkModeToggle()
     }
 
