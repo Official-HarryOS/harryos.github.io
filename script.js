@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () =>{
         document.body.classList.toggle('dark-mode')
         container.classList.toggle('dark-mode')
 
-        if(document.body.classList.Contain('dark-mode')){
-            darkToggleButton.textContainer = "Toggle Light Mode"
-        }else{
-            darkToggleButton.textContainer = "Toggle Dark Mode"
+        if (document.body.classList.contains('dark-mode')) {
+            darkToggleButton.textContent = "Toggle Light Mode";
+        } else {
+            darkToggleButton.textContent = "Toggle Dark Mode";
         }
     }
 
