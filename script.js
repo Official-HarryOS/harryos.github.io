@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () =>{
     const container = document.getElementById('container')
     const darkbutton = document.getElementById('darkToggle')
-    const darkToggleButton = document.gelElementById('darkToggleButton')
+    const darkToggleButton = document.getElementById('darkToggleButton')
     
     function darkModeToggle(){
         document.body.classList.toggle('dark-mode')
